@@ -46,11 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
             removeBtn.addEventListener('click', function() {
                 if (newLi.className === 'done') {
                     list.removeChild(newLi);
-                    counter.innerHTML = --counterVal;
                 }
-                if (counterVal < 0) {
-                    counter.innerHTML = ++counterVal;
-                }
+
             });
 
             input.value = '';
