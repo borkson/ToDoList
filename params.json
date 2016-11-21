@@ -1,0 +1,6 @@
+{
+  "name": "Todolist",
+  "tagline": "HTML, CSS i vanila JS skills (with RWD).",
+  "body": "# To Do List\r\nHTML, CSS i vanila JS skills (with RWD).\r\n\r\n## About\r\nIt is simple and easy to use \"To Do List\". You can add several tasks to the list, mark it as done, or simply delete it. You can also delete all complete tasks immediately. The counter shows unfinished tasks.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
