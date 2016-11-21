@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
             counter.innerHTML = ++counterVal;
             // creating new elements
             var newLi = document.createElement('li');
-            var newH2 = document.createElement('h2');
+            var newH3 = document.createElement('h3');
             var deleteBtn = document.createElement('button');
             var completeBtn = document.createElement('button');
             //adding new elements
             list.appendChild(newLi);
-            newLi.appendChild(newH2).innerHTML = input.value;
+            newLi.appendChild(newH3).innerHTML = input.value;
             newLi.appendChild(deleteBtn).innerHTML = 'Delete';
             newLi.appendChild(completeBtn).innerHTML = 'Complete';
 
@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 newLi.classList.toggle('done');
                 if (newLi.className === 'done') {
                     counter.innerHTML = --counterVal;
-                    newH2.style.color = '#FF4500';
+                    newH3.style.color = '#FF4500';
                 } else {
                     counter.innerHTML = ++counterVal;
-                    newH2.style.color = '#1E90FF'
+                    newH3.style.color = '#1E90FF'
                 }
             });
 
